@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter, FaSquarespace } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="flex flex-row justify-around bg-white py-5">
+    <header className="flex  from-blue-400 flex-row justify-around bg-white sticky z-10 top-0 py-5">
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
