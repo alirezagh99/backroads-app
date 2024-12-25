@@ -14,24 +14,33 @@ function Header() {
             <a href="#">H o m e</a>
           </li>
           <li className="hover:text-blue-400 transition-all duration-500">
-            <a href="#">A b o u t</a>
+            <a href="#about">A b o u t</a>
           </li>
           <li className="hover:text-blue-400 transition-all duration-500">
-            <a href="#">S e r v i c e s</a>
+            <a href="#services">S e r v i c e s</a>
           </li>
           <li className="hover:text-blue-400 transition-all duration-500">
-            <a href="#">T o u r s</a>
+            <a href="#tours">T o u r s</a>
           </li>
         </ul>
       </nav>
       <div className="icons flex flex-row gap-3 text-xl text-blue-400">
-        <a href="https://facebook.com">
+        <a
+          className="hover:text-blue-200 transition-all duration-500"
+          href="https://facebook.com"
+        >
           <FaFacebook />
         </a>
-        <a href="https://x.com">
+        <a
+          className="hover:text-blue-200 transition-all duration-500"
+          href="https://x.com"
+        >
           <FaTwitter />
         </a>
-        <a href="https://squarespace.com">
+        <a
+          className="hover:text-blue-200 transition-all duration-500"
+          href="https://squarespace.com"
+        >
           <FaSquarespace />
         </a>
       </div>

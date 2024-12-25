@@ -5,7 +5,7 @@ import { FaWallet, FaSocks } from "react-icons/fa";
 
 function Services() {
   return (
-    <section className="bg-[#F1F5F8] mt-16 py-20 px-5">
+    <section id="services" className="bg-[#F1F5F8] mt-16 py-20 px-5">
       <h3 className="tracking-widest mb-10 font-bold text-[rgba(0,0,0,0.8)] text-center text-4xl">
         OUR <span className="text-blue-400">SERVICES</span>
       </h3>

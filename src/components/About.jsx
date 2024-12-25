@@ -3,7 +3,7 @@ import aboutImg from "../assets/images/about.jpeg";
 
 function About() {
   return (
-    <section className="about-us mt-10 px-5">
+    <section id="about" className="about-us mt-10 px-5">
       <h2 className="text-4xl font-bold text-[rgba(0,0,0,0.85)] tracking-widest mb-16 text-center block">
         ABOUT <span className="text-blue-400">US</span>
       </h2>

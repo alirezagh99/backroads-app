@@ -7,7 +7,7 @@ import tour4 from "../assets/images/tour-4.jpeg";
 
 function Tours() {
   return (
-    <section className="mt-20">
+    <section id="tours" className="mt-20">
       <h3 className="tracking-widest mb-10 font-bold text-[rgba(0,0,0,0.8)] text-center text-4xl">
         FEATURED <span className="text-blue-400">TOURS</span>
       </h3>
