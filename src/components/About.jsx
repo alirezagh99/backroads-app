@@ -1,12 +1,11 @@
 import React from "react";
 import aboutImg from "../assets/images/about.jpeg";
+import Title from "./Title";
 
 function About() {
   return (
     <section id="about" className="about-us mt-10 px-5">
-      <h2 className="text-4xl font-bold text-[rgba(0,0,0,0.85)] tracking-widest mb-16 text-center block">
-        ABOUT <span className="text-blue-400">US</span>
-      </h2>
+      <Title title1="ABOUT" title2="US" />
       <div className="flex flex-col justify-center gap-10 lg:flex-row mt-10">
         <div className="lg:w-1/3 relative">
           <div className="w-full absolute hidden lg:block border-8 -z-10 -top-5 -left-5 border-blue-400 h-full"></div>
