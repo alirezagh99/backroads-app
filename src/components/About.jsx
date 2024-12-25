@@ -26,7 +26,7 @@ function About() {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <button className="tracking-widest bg-blue-400 text-white py-2 px-4 hover:bg-blue-200 hover:text-[rgba(0,0,0,0.8)] transition-all">
+          <button className="tracking-widest bg-blue-400 duration-500 text-white py-2 px-4 hover:bg-blue-200 hover:text-[rgba(0,0,0,0.8)] transition-all">
             READ MORE
           </button>
         </div>

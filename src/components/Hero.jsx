@@ -12,7 +12,7 @@ function Hero() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           nesciunt aut, facere id ducimus libero voluptatem consequatur laborum
         </p>
-        <button className="tracking-widest text-base lg:text-xl text-blue-400 px-8 py-3 border border-white transition-all hover:bg-transparent bg-white">
+        <button className="tracking-widest text-base lg:text-xl text-blue-400 px-8 py-3 border border-white transition-all duration-500 hover:bg-transparent bg-white">
           EXPLORE TOURS
         </button>
       </div>
