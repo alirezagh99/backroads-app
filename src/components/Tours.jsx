@@ -51,6 +51,7 @@ function Tours() {
         {data.map((tour) => {
           return (
             <TourItem
+              key={tour.id}
               img={tour.img}
               date={tour.date}
               title={tour.title}
