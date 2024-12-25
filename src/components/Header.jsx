@@ -1,14 +1,15 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
 import { FaFacebook, FaTwitter, FaSquarespace } from "react-icons/fa";
+import { IoMenu } from "react-icons/io5";
 
 function Header() {
   return (
-    <header className="flex shadow-lg from-blue-400 flex-row justify-around bg-white sticky z-10 top-0 py-5">
+    <header className="flex shadow-lg from-blue-400 items-center flex-row justify-around bg-white sticky z-10 top-0 py-5">
       <div className="logo">
         <img src={logo} alt="logo" />
       </div>
-      <nav>
+      <nav className="hidden md:block">
         <ul className="flex flex-row gap-5 text-[rgba(0,0,0,0.7)]">
           <li className="hover:text-blue-400 transition-all duration-500">
             <a href="#">H o m e</a>
@@ -24,6 +25,9 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <a href="#" className="md:hidden text-2xl">
+        <IoMenu />
+      </a>
       <div className="icons flex flex-row gap-3 text-xl text-blue-400">
         <a
           className="hover:text-blue-200 transition-all duration-500"
